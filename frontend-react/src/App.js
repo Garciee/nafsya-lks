@@ -6,10 +6,12 @@ import AbtPage from './components/AbtPage';
 import ShopPage from './components/ShopPage';
 import LogPage from './components/LogPage';
 import GameBar from './components/GameBar';
+import Profile from './components/ProfileCard'
 import GameList from './Games'
 import objs from "./Data/data";
 import Games from "./Games";
 import './Css/style.css';
+import ProfileCard from './components/ProfileCard';
 
 function App() {
   const isLoggedIn = !!localStorage.getItem('user');
@@ -25,8 +27,8 @@ function App() {
         <Route path='/login' element={<LogPage />} />
         <Route path='/GameBar' element={<GameBar />} />
         <Route path='/Games' element={<Games />} />
-        <Route path='Games' element={<Games />} />
-
+        <Route path='/Games' element={<Games />} />
+        <Route path='/Profile' element={<ProfileCard />} />
       </Routes>
     </Router>
   );

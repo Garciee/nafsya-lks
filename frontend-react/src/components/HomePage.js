@@ -4,14 +4,15 @@ const HomePage = () => {
   return (
     <div>
       {/* Navbar */}
-      <nav className="bg-black text-white px-6 py-4 flex justify-between items-center shadow-md">
+      <nav className="bg-gray-900 text-white px-6 py-4 flex justify-between items-center shadow-lg">
         <div className="text-2xl font-bold">-PinLes</div>
         <div className="space-x-4">
           <a href="#home" className="hover:text-blue-400">Home</a>
           <a href="/AbtPage" className="hover:text-blue-400">About</a>
           <a href="/Games" className="hover:text-blue-400">Game</a>
           <a href="#shop" className="hover:text-blue-400">Shop</a>
-          <a href="/LogPage" className="hover:text-blue-400">LOGin</a>
+          <a href="/LogPage" className="hover:text-blue-400 hover:bg-white">LOGin</a>
+          <a href="/UserProfile" className="hover:text-blue-400">Profile</a>
         </div>
       </nav>
 

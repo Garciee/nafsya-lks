@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const LoginForm = () => {
+const LogPage = () => {
   const [username, setUsername] = useState('');
   const navigate = useNavigate();
 
@@ -79,4 +79,4 @@ const styles = {
   }
 };
 
-export default LoginForm;
+export default LogPage;

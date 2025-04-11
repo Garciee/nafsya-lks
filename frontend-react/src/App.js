@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import GamePage from './components/GamePage';
-import Checkout from './components/Checkout';
-import LoginForm from './components/LoginForm';
 import HomePage from './components/HomePage';
+import AbtPage from './components/AbtPage';
+import ShopPage from './components/ShopPage'
+import LogPage from './components/LogPage'
 
 function App() {
   const isLoggedIn = !!localStorage.getItem('user');
@@ -13,11 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/game" element={<GamePage />} />
-        <Route path="/checkout" element={<Checkout />} />
-        <Route
-          path="/login"
-          element={isLoggedIn ? <Navigate to="/game" /> : <LoginForm />}
-        />
+        <Route path="/Shop" element={<ShopPage />} />
+        <Route path="/AbtPage" element={<AbtPage />} />
+        <Route path='/login' element={<LogPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

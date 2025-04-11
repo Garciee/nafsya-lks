@@ -9,7 +9,7 @@ const HomePage = () => {
         <div className="space-x-4">
           <a href="#home" className="hover:text-blue-400">Home</a>
           <a href="/AbtPage" className="hover:text-blue-400">About</a>
-          <a href="#play" className="hover:text-blue-400">Play</a>
+          <a href="/Games" className="hover:text-blue-400">Game</a>
           <a href="#shop" className="hover:text-blue-400">Shop</a>
           <a href="/LogPage" className="hover:text-blue-400">LOGin</a>
         </div>

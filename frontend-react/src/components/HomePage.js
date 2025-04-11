@@ -20,7 +20,7 @@ const HomePage = () => {
       <section id="home" className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-black to-gray-900 text-white text-center px-6">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">Welcomme To PinLes, user!</h1>
         <p className="text-lg md:text-xl mb-8 max-w-xl">
-          Klik, iringi musik, dan jangan sampai salah! Uji kecepatan dan akurasi mu!
+          Klik, iringi musik, dan jangan sampai salah! Uji kecepatan dan akurasi mu! wallahi, im cooked
         </p>
         <a href="#play">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-2xl text-lg transition-all duration-300">

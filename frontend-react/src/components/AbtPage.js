@@ -9,8 +9,9 @@ const AbtPage = () => {
         <div className="space-x-4">
           <a href="/HomePage" className="hover:text-blue-400">Home</a>
           <a href="/AbtPage" className="hover:text-blue-400">Tentang</a>
-          <a href="#play" className="hover:text-blue-400">Mainkan</a>
+          <a href="GamePage" className="hover:text-blue-400">Mainkan</a>
           <a href="/Shop" className="hover:text-blue-400">Shop</a>
+          <a href="/LogPage" className="hover:text-blue-400">LOGin</a>
         </div>
       </nav>
 
@@ -20,7 +21,38 @@ const AbtPage = () => {
         <p className="max-w-2xl mx-auto text-lg">
           PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
           Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+          PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
+
         </p>
+
+        
       </section>
 
       {/* Footer */}

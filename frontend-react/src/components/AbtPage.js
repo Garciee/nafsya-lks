@@ -2,18 +2,19 @@ import React from "react";
 
 const AbtPage = () => {
   return (
-    <div>
-      {/* Navbar */}
-      <nav className="bg-black text-white px-6 py-4 flex justify-between items-center shadow-md">
-        <div className="text-2xl font-bold">PinLes</div>
-        <div className="space-x-4">
-          <a href="/HomePage" className="hover:text-blue-400">Home</a>
-          <a href="/AbtPage" className="hover:text-blue-400">Tentang</a>
-          <a href="GameList" className="hover:text-blue-400">Game</a>
-          <a href="/Shop" className="hover:text-blue-400">Shop</a>
-          <a href="/LogPage" className="hover:text-blue-400">LOGin</a>
-        </div>
-      </nav>
+    <div className="bg-gray-900 text-white min-h-screen">
+    {/* Navbar */}
+    <nav className="bg-gray-900 text-white px-6 py-4 flex justify-between items-center shadow-lg">
+      <div className="text-2xl font-bold">-PinLes</div>
+      <div className="space-x-4">
+        <a href="/" className="hover:text-blue-400">Home</a>
+        <a href="/AbtPage" className="hover:text-blue-400">About</a>
+        <a href="/Games" className="hover:text-blue-400">Game</a>
+        <a href="/StorePage" className="hover:text-blue-400">Shop</a>
+        <a href="/LogPage" className="hover:text-blue-40">LOGin</a>
+        <a href="/Profiles" className="hover:text-blue-400">Profile</a>
+      </div>
+    </nav>
 
       {/* Tentang Game */}
       <section id="about" className="py-16 bg-white text-gray-800 text-center px-6">

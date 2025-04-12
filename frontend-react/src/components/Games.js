@@ -7,14 +7,14 @@ const StorePage = () => {
       id: 1,
       title: "SurviLand",
       desc: "apakah kamu bisa bertahan di pulau ini?.",
-      img: "/images/survi.jpg",
+      img: "/images/tomorow.jpg",
       price: "35.000",
     },
     {
       id: 2,
       title: "Zombie hunter",
       desc: "tahun 2097, para zombi menginvasi bumi. apakah kamu bisa menyingkirkan mereka?",
-      img: "/images/zombie",
+      img: "/images/zombiejpg.jpg",
       price: "Rp70.000",
     },
     {
@@ -35,14 +35,14 @@ const StorePage = () => {
       id: 3,
       title: "PERSONA 6 : save new life + DLC",
       desc: "selamatkan dunia dari para shadows",
-      img: "/images/persoana.jpg",
+      img: "/images/persona.jpg",
       price: "Rp549.000",
     },
     {
       id: 3,
       title: "Red Dead Recreate 3 + DLC",
       desc: "temukan jalanmu.",
-      img: "/images/persoana.jpg",
+      img: "/images/rdr.jpg",
       price: "Rp899.000",
     },
   ];
@@ -71,9 +71,9 @@ const StorePage = () => {
               <img src={game.img} alt={game.title} className="w-full h-48 object-cover rounded-xl mb-4" />
               <h2 className="text-2xl font-semibold mb-2">{game.title}</h2>
               <p className="text-gray-300 mb-4">{game.desc}</p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
+              <a href="http://127.0.0.1:8000/pay"button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                 {game.price === "Gratis" ? "Mainkan Sekarang" : `Beli - ${game.price}`}
-              </button>
+              </a>
             </div>
           ))}
         </div>

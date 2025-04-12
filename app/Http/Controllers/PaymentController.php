@@ -3,41 +3,37 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Midtrans\Config;
+use App\Helpers\MidtransConfig; // <- tambahkan ini
 use Midtrans\Snap;
 
 class PaymentController extends Controller
 {
-    public function createSnapToken(Request $request)
+    public function getSnapToken()
     {
-        // Set Midtrans config dengan nilai dari .env
-        Config::$serverKey = env('MIDTRANS_SERVER_KEY');
-        Config::$isProduction = env('MIDTRANS_IS_PRODUCTION', false);
-        Config::$isSanitized = true;
-        Config::$is3ds = true;
+        MidtransConfig::init(); // <- panggil konfigurasi
 
-        // Misalnya, data transaksi berasal dari item yang dipilih
-        // Pastikan request mengirimkan minimal: order_id, gross_amount,
-        // dan data customer jika dibutuhkan.
         $params = [
             'transaction_details' => [
-                'order_id' => 'order-' . time(), // atau gunakan ID transaksi item dari database
-                'gross_amount' => $request->gross_amount, // total harga item (misal dalam rupiah)
+                'order_id' => rand(),
+                'gross_amount' => 10000,
             ],
             'customer_details' => [
-                'first_name' => $request->first_name,
-                'last_name'  => $request->last_name,
-                'email'      => $request->email,
-                'phone'      => $request->phone,
+                'first_name' => 'Iyan',
+                'last_name' => 'Ginting',
+                'email' => 'iyan@example.com',
+                'phone' => '08123456789',
             ],
-            // Bisa tambahkan item_details, custom_field, dll.
         ];
 
-        try {
-            $snapToken = Snap::getSnapToken($params);
-            return response()->json(['snapToken' => $snapToken]);
-        } catch (\Exception $e) {
-            return response()->json(['error' => $e->getMessage()], 500);
-        }
+        $snapToken = Snap::getSnapToken($params);
+
+        return response()->json([
+            'snap_token' => $snapToken
+        ]);
+    }
+
+    public function paymentPage()
+    {
+        return view('payment');
     }
 }

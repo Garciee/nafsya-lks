@@ -1,7 +1,7 @@
 import React from "react";
+
 const StorePage = () => {
 
-    
   const games = [
     {
       id: 1,
@@ -36,7 +36,7 @@ const StorePage = () => {
           <a href="/AbtPage" className="hover:text-blue-400">About</a>
           <a href="/Games" className="hover:text-blue-400">Game</a>
           <a href="/StorePage" className="hover:text-blue-400">Shop</a>
-          <a href="/Login" className="hover:text-blue-400 hover:bg-blue-950 rounded-xl">LOGin</a>
+          <a href="/Login" className="hover:text-blue-400 hover:bg-blue-950 rounded-xl">Login</a>
           <a href="/Profiles" className="hover:text-blue-400">Profile</a>
         </div>
       </nav>
@@ -50,9 +50,9 @@ const StorePage = () => {
               <img src={game.img} alt={game.title} className="w-full h-48 object-cover rounded-xl mb-4" />
               <h2 className="text-2xl font-semibold mb-2">{game.title}</h2>
               <p className="text-gray-300 mb-4">{game.desc}</p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
+              <a href="http://127.0.0.1:8000/pay"button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                 {game.price === "Gratis" ? "Mainkan Sekarang" : `Beli - ${game.price}`}
-              </button>
+              </a>
             </div>
           ))}
         </div>

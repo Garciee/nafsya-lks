@@ -5,11 +5,11 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-gray-900">
     <div  class="flex justify-center items-center ">
-    <h1 class="text-6xl font-bold font-stretch-75% font-sans justify-center items-center">BAYAR SEKARANG?</h1>
+    <h1 class="text-white text-6xl font-bold font-stretch-75% font-sans justify-center items-center">BAYAR SEKARANG?</h1>
     </div>
-    <div class="flex justify-center items-center ">
+    <div class="text-white flex justify-center items-center ">
         <p>pinles.com</p>
     </div>
     <div class="flex justify-center items-center">

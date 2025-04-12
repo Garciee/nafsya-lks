@@ -36,6 +36,7 @@ const HomePage = () => {
           PinLes adalah game piano tiles yang menguji kecepatan tangan dan ketepatan reflek.
         click pada tiles hitam yg muncul dari atas ke bawah, seperti game musik pada umumnya Pinles juga mneyediakan beberapa jenis lagu "coming soon".
         </p>
+        <p>pinles juga menyediakan beberapa games untuk di download</p>
       </section>
 
       {/* Section Mainkan Game */}

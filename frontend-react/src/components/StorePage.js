@@ -8,14 +8,14 @@ const StorePage = () => {
       title: "PinLes Classic",
       desc: "Game piano tiles klasik dengan musik yang bikin nostalgia.",
       img: "/images/pinles-classic.jpg",
-      price: "5.000",
+      price: "10.000",
     },
     {
       id: 2,
       title: "PinLes EDM Pack",
       desc: "Paket lagu EDM eksklusif untuk tantangan lebih seru.",
       img: "/images/edm-pack.jpg",
-      price: "Rp15.000",
+      price: "Rp10.000",
     },
     {
       id: 3,

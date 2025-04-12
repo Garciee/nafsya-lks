@@ -6,7 +6,7 @@ const UserProfile = () => {
 
   return (
     <div className="min-h-screen bg-black flex items-center justify-center">
-      <ProfileCard name="Rezan" email={email || "Belum login"} />
+      <ProfileCard name="user" email={email || "Belum login"} />
     </div>
   );
 };

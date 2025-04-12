@@ -11,7 +11,7 @@ const HomePage = () => {
           <a href="/AbtPage" className="hover:text-blue-400">About</a>
           <a href="/Games" className="hover:text-blue-400">Game</a>
           <a href="/StorePage" className="hover:text-blue-400">Shop</a>
-          <a href="/Login" className="hover:text-blue-400 hover:bg-white">LOGin</a>
+          <a href="/Login" className="hover:text-blue-400 hover:bg-blue-950 rounded-xl">Login</a>
           <a href="/Profiles" className="hover:text-blue-400">Profile</a>
         </div>
       </nav>

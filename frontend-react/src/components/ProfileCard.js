@@ -5,7 +5,7 @@ const ProfileCard = ({ name, email }) => {
     <div className="bg-gray-800 p-8 rounded-2xl shadow-xl text-white max-w-sm w-full text-center">
       <img
         className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500"
-        src="https://i.pinimg.com/736x/12/79/3a/12793a3f0bc3d83c8c4f38c4fa317144.jpg"
+        src="/images/pfp.jpg"
         alt="Profile"
       />
       <h2 className="text-2xl font-bold">{name}</h2>
@@ -15,11 +15,32 @@ const ProfileCard = ({ name, email }) => {
           localStorage.removeItem("user");
           window.location.href = "/login";
         }}
-        className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-7 rounded"
       >
         Logout
       </button>
+      <button
+        onClick={() => {
+          localStorage.removeItem("user");
+          window.location.href = "/RegisterPage";
+        }}
+        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-7 rounded"
+      >
+        Login
+      </button>
+      <section>
+      <button
+        onClick={() => {
+          localStorage.removeItem("user");
+          window.location.href = "/Games";
+        }}
+        className="bg-gray-800 hover:text-blue-800 text-white font-bold py-2 px-7 rounded"
+      >
+        Games
+      </button>
+      </section>
     </div>
+   
   );
 };
 

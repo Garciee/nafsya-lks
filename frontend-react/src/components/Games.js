@@ -5,24 +5,45 @@ const StorePage = () => {
   const games = [
     {
       id: 1,
-      title: "PinLes Classic",
-      desc: "Game piano tiles klasik dengan musik yang bikin nostalgia.",
-      img: "/images/pinles-classic.jpg",
-      price: "5.000",
+      title: "SurviLand",
+      desc: "apakah kamu bisa bertahan di pulau ini?.",
+      img: "/images/survi.jpg",
+      price: "35.000",
     },
     {
       id: 2,
-      title: "PinLes EDM Pack",
-      desc: "Paket lagu EDM eksklusif untuk tantangan lebih seru.",
-      img: "/images/edm-pack.jpg",
-      price: "Rp15.000",
+      title: "Zombie hunter",
+      desc: "tahun 2097, para zombi menginvasi bumi. apakah kamu bisa menyingkirkan mereka?",
+      img: "/images/zombie",
+      price: "Rp70.000",
     },
     {
       id: 3,
-      title: "PinLes Remix Mode",
-      desc: "Mode remix dengan kecepatan tinggi dan efek keren!",
-      img: "/images/remix-mode.jpg",
-      price: "Rp10.000",
+      title: "Dekken 7 : ultimate",
+      desc: "bertarung dengan banyak kombinasi action ",
+      img: "/images/dekken.jpg",
+      price: "Rp349.000",
+    },
+    {
+      id: 3,
+      title: "Wincraft",
+      desc: "sandbox open world terbaik ",
+      img: "/images/wincraft.jpg",
+      price: "Rp99.000",
+    },
+    {
+      id: 3,
+      title: "PERSONA 6 : save new life + DLC",
+      desc: "selamatkan dunia dari para shadows",
+      img: "/images/persoana.jpg",
+      price: "Rp549.000",
+    },
+    {
+      id: 3,
+      title: "Red Dead Recreate 3 + DLC",
+      desc: "temukan jalanmu.",
+      img: "/images/persoana.jpg",
+      price: "Rp899.000",
     },
   ];
 
@@ -36,14 +57,14 @@ const StorePage = () => {
           <a href="/AbtPage" className="hover:text-blue-400">About</a>
           <a href="/Games" className="hover:text-blue-400">Game</a>
           <a href="/StorePage" className="hover:text-blue-400">Shop</a>
-          <a href="/Login" className="hover:text-blue-400 hover:bg-blue-950 rounded-xl">LOGin</a>
+          <a href="/Login" className="hover:text-blue-400 hover:bg-blue-950 rounded-xl">Login</a>
           <a href="/Profiles" className="hover:text-blue-400">Profile</a>
         </div>
       </nav>
 
       {/* Store Section */}
       <section className="py-16 px-6">
-        <h1 className="text-4xl font-bold text-center mb-10">Mode Store</h1>
+        <h1 className="text-4xl font-bold text-center mb-10">Game Store</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {games.map((game) => (
             <div key={game.id} className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">

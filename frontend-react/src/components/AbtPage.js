@@ -11,7 +11,7 @@ const AbtPage = () => {
         <a href="/AbtPage" className="hover:text-blue-400">About</a>
         <a href="/Games" className="hover:text-blue-400">Game</a>
         <a href="/StorePage" className="hover:text-blue-400">Shop</a>
-        <a href="/LogPage" className="hover:text-blue-40">LOGin</a>
+        <a href="/LogPage" className="hover:text-blue-40  hover:bg-blue-950 rounded-xl">Login</a>
         <a href="/Profiles" className="hover:text-blue-400">Profile</a>
       </div>
     </nav>
@@ -49,9 +49,10 @@ const AbtPage = () => {
           PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
           Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
           PinLes adalah permainan musik yang menguji kecepatan tangan dan ketepatan reflek.
-          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun!
-
+          Klik hanya pada kotak hitam yang muncul mengikuti irama musik, dan jangan sampai terlewatka 1 tiles pun
         </p>
+
+        <h1 className="text-5xl py-4 items-center ">THANKS FOR VISITING THIS WEB</h1>
 
         
       </section>

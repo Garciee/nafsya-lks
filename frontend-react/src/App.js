@@ -6,7 +6,7 @@ import AbtPage from './components/AbtPage';
 import LogPage from './components/LogPage';
 import StorePage from './components/StorePage';
 import RegisterPage from './components/RegisterPage';
-import Games from './Games';
+import Games from './components/Games';
 import UserProfile from './components/UserProfile';
 import ProfileCard from './components/ProfileCard';
 import './Css/style.css';
@@ -25,6 +25,8 @@ function App() {
         <Route path="/Games" element={<Games />} />
         <Route path="/Register" element={<RegisterPage />} />
         <Route path="/Profiles" element={<UserProfile />} />
+        <Route path='/ProfileCard' element={<ProfileCard />} />
+        <Route path='./HomePage' element={<HomePage />} />
       </Routes>
     </Router>
   );

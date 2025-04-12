@@ -1,4 +1,5 @@
 .game-container {
+    item-align:center;
     text-align: center;
     background: linear-gradient(to bottom, #1e1e2f, #3c3c5c);
     min-height: 100vh;
@@ -15,6 +16,7 @@
   }
   
   canvas {
+    item-align: center;
     border: 3px solid #fff;
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
     background-color: #222;
@@ -22,6 +24,7 @@
   }
   
   .score-text {
+    color:white;
     font-size: 24px;
     margin-top: 20px;
     color: #00ffcc;

@@ -8,8 +8,7 @@ const canvasHeight = 600;
 const numColumns = 4;
 const fallSpeed = 5;
 
-const beatMap = [1000, 1800, 2300, 2800, 3500, 4200, 4900]; // waktu tile muncul dalam ms
-
+const beatMap = [1000, 1800, 2300, 2800, 3500, 4200, 4900]; 
 const GamePage = () => {
   const canvasRef = useRef(null);
   const audioRef = useRef(null);
@@ -100,7 +99,7 @@ const GamePage = () => {
 
   return (
     <div className="game-container">
-      <h1 className="game-title">🎹 Piano Tiles Game</h1>
+      <h1 className="game-title">Piles.com</h1>
       <canvas
         ref={canvasRef}
         width={canvasWidth}
